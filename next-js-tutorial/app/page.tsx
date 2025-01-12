@@ -1,9 +1,11 @@
-const page = () => {
+import NavPage from "./nav/page";
+
+const HomePage = () => {
   return (
     <>
-      <h1>This is line number 1</h1>
-      <h2>This is line number 2</h2>
+      <NavPage />
+      <div>HomePage</div>
     </>
   );
 };
-export default page;
+export default HomePage;

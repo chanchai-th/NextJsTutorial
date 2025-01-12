@@ -1,4 +1,11 @@
+import NavPage from "../nav/page";
+
 const AboutPage = () => {
-  return <div>AboutPage</div>;
+  return (
+    <>
+      <NavPage />
+      <div>AboutPage</div>
+    </>
+  );
 };
 export default AboutPage;
